@@ -373,6 +373,7 @@ window.__require = function e(t, n, r) {
             var response = xhr.responseText;
             cc.log("Reponse : ".concat(response));
             var JSONResponse = JSON.parse(response);
+            cc.log(JSONResponse);
             var PState = require("PlayerState");
             PState.PlayerId = JSONResponse.userId;
             if (null == PState.PlayerId || -1 == PState.PlayerId) {
