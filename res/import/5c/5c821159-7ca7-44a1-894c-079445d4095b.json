@@ -1,5 +1,1 @@
-{
-  "__type__": "cc.AudioClip",
-  "_name": "SFX_Drinking",
-  "_native": ".mp3"
-}
+{"__type__":"cc.AudioClip","_name":"SFX_Drinking","_native":".mp3"}
