@@ -1,1 +1,107 @@
-[[{"__type__":"cc.Prefab","_name":"CoinsParticle","data":{"__id__":1}},{"__type__":"cc.Node","_name":"CoinsParticle","_components":[{"__type__":"cc.ParticleSystem","node":{"__id__":1},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_custom":true,"_spriteFrame":{"__uuid__":"feupchx91OKbFFaWxGQE6A"},"autoRemoveOnFinish":true,"duration":1,"_startColor":{"__type__":"cc.Color","r":255,"g":255,"b":255},"_startColorVar":{"__type__":"cc.Color"},"_endColor":{"__type__":"cc.Color","r":255,"g":255,"b":255,"a":0},"_endColorVar":{"__type__":"cc.Color","a":0}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"6eXmBhpJBLm6PeO2KjWQLr"},"fileId":"d0oB5v2CNNyLZBeZEThqFY"},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}}],{"__type__":"cc.SpriteFrame","content":{"name":"Coins","texture":"8fPadlN6BE0IW09V4wnJBX","rect":[0,0,512,512],"offset":[0,0],"originalSize":[512,512],"capInsets":[0,0,0,0]}}]
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "CoinsParticle",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "CoinsParticle",
+      "_components": [
+        {
+          "__type__": "cc.ParticleSystem",
+          "node": {
+            "__id__": 1
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_custom": true,
+          "_spriteFrame": {
+            "__uuid__": "feupchx91OKbFFaWxGQE6A"
+          },
+          "autoRemoveOnFinish": true,
+          "duration": 1,
+          "_startColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_startColorVar": {
+            "__type__": "cc.Color"
+          },
+          "_endColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+          },
+          "_endColorVar": {
+            "__type__": "cc.Color",
+            "a": 0
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6eXmBhpJBLm6PeO2KjWQLr"
+        },
+        "fileId": "d0oB5v2CNNyLZBeZEThqFY"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Coins",
+      "texture": "8fPadlN6BE0IW09V4wnJBX",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

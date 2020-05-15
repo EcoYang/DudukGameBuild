@@ -1,1 +1,568 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"VictoryBoard_v2_Shine_p2","texture":"333VrE/WpCVYQ8SVPtIOib","rect":[244,11,783,350],"offset":[-4.5,174],"originalSize":[1280,720],"capInsets":[0,0,0,0]}},[{"__type__":"cc.Prefab","_name":"VictoryPrefab","data":{"__id__":1}},{"__type__":"cc.Node","_name":"VictoryPrefab","_children":[{"__id__":2},{"__id__":3},{"__id__":4},{"__id__":5}],"_components":[{"__type__":"cc.AudioSource","node":{"__id__":1},"_clip":{"__uuid__":"a6vF1gEJZEH79aJFnesnWl"},"playOnLoad":true}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"d4Xqck2mpIBIaFvs//nqzz"},"_contentSize":{"__type__":"cc.Size","width":826,"height":614},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"VictoryBoard_v2_Shine_p2","_parent":{"__id__":1},"_components":[{"__type__":"cc.Sprite","node":{"__id__":2},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_spriteFrame":{"__uuid__":"10lZZrAFVBjrxi0mWOpfMq"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"f83EKCnL9MBKrjqrIul7R2"},"_contentSize":{"__type__":"cc.Size","width":783,"height":350},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,163.427,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"VictoryBoard_v2_board_p1","_parent":{"__id__":1},"_components":[{"__type__":"cc.Sprite","node":{"__id__":3},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_spriteFrame":{"__uuid__":"52xSDgNuFD3aHGT+t2kut6"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"fdoiq/CftHOJGlVO09/mzh"},"_contentSize":{"__type__":"cc.Size","width":524,"height":468},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,-68.444,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"VictoryBoard_v2_Congratz_p4","_parent":{"__id__":1},"_components":[{"__type__":"cc.Sprite","node":{"__id__":4},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_spriteFrame":{"__uuid__":"fcOUkOEX5FxrdM3K3uJw0y"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"bcm+EbbO1Fe7kBFtnT54Vx"},"_contentSize":{"__type__":"cc.Size","width":545,"height":142},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,174.602,0,0,0,0,1,0.8,0.8,1]}},{"__type__":"cc.Node","_name":"NextButton","_parent":{"__id__":1},"_children":[{"__id__":6}],"_components":[{"__type__":"cc.Button","node":{"__id__":5},"_normalMaterial":{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"},"_N$transition":1,"transition":1,"_N$normalColor":{"__type__":"cc.Color","r":230,"g":230,"b":230},"_N$pressedColor":{"__type__":"cc.Color","r":65,"g":65,"b":65},"pressedColor":{"__type__":"cc.Color","r":65,"g":65,"b":65},"_N$hoverColor":{"__type__":"cc.Color","r":119,"g":119,"b":119},"hoverColor":{"__type__":"cc.Color","r":119,"g":119,"b":119},"_N$disabledColor":{"__type__":"cc.Color","r":120,"g":120,"b":120,"a":200},"_N$normalSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"_N$pressedSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"pressedSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"_N$hoverSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"hoverSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"_N$disabledSprite":{"__uuid__":"8eX6ioyMxBQaZN/8hBOHr0"},"_N$target":{"__id__":6}},{"__type__":"d29d9BD7KtFHJTgYyG2y/AK","node":{"__id__":5}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"948sewhYFB37ofKtxfnisU"},"_contentSize":{"__type__":"cc.Size","width":1280,"height":460.8},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,-238.855,0,0,0,0,1,0.2,0.2,1]}},{"__type__":"cc.Node","_name":"Background","_parent":{"__id__":5},"_components":[{"__type__":"cc.Sprite","node":{"__id__":6},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_spriteFrame":{"__uuid__":"cbLGoCuelOu76HdBz/JcbA"},"_type":1,"_sizeMode":0},{"__type__":"cc.Widget","node":{"__id__":6},"alignMode":0,"_alignFlags":45,"_top":-104.76100000000002,"_bottom":104.76100000000005,"_originalWidth":100,"_originalHeight":40}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"2cSug52bVId5OE+LAasjY6"},"fileId":"16VBWIcS1Kv4nGmyVij4F4"},"_color":{"__type__":"cc.Color","r":230,"g":230,"b":230},"_contentSize":{"__type__":"cc.Size","width":1280,"height":460.8},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,104.76100000000005,0,0,0,0,1,1,1,1]}}],{"__type__":"cc.SpriteFrame","content":{"name":"VictoryBoard_v2_board_p1","texture":"c4v+u44jZIjLklVb+AoDcq","rect":[381,149,524,468],"offset":[3,-23],"originalSize":[1280,720],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"NextLevel_btn","texture":"2dxNNWZnZDWpsjKhTFEo7Y","rect":[4,2,508,510],"offset":[2,-1],"originalSize":[512,512],"capInsets":[0,0,0,0]}},{"__type__":"cc.AudioClip","_name":"SFX_EpicWin_EndGame","_native":".mp3"},{"__type__":"cc.SpriteFrame","content":{"name":"VictoryBoard_v2_NEXTBtn_p3","texture":"73Ew3Jp0FBIKxhJnZ7NKRc","rect":[508,491,263,88],"offset":[-0.5,-175],"originalSize":[1280,720],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"VictoryBoard_v2_Congratz_p4","texture":"81sQeGE9pMG6gMS6kK4d3a","rect":[367,79,545,142],"offset":[-0.5,210],"originalSize":[1280,720],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "VictoryBoard_v2_Shine_p2",
+      "texture": "333VrE/WpCVYQ8SVPtIOib",
+      "rect": [
+        244,
+        11,
+        783,
+        350
+      ],
+      "offset": [
+        -4.5,
+        174
+      ],
+      "originalSize": [
+        1280,
+        720
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "VictoryPrefab",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "VictoryPrefab",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.AudioSource",
+          "node": {
+            "__id__": 1
+          },
+          "_clip": {
+            "__uuid__": "a6vF1gEJZEH79aJFnesnWl"
+          },
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "d4Xqck2mpIBIaFvs//nqzz"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 826,
+        "height": 614
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "VictoryBoard_v2_Shine_p2",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 2
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "10lZZrAFVBjrxi0mWOpfMq"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "f83EKCnL9MBKrjqrIul7R2"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 783,
+        "height": 350
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          163.427,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "VictoryBoard_v2_board_p1",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "52xSDgNuFD3aHGT+t2kut6"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "fdoiq/CftHOJGlVO09/mzh"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 524,
+        "height": 468
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -68.444,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "VictoryBoard_v2_Congratz_p4",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "fcOUkOEX5FxrdM3K3uJw0y"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "bcm+EbbO1Fe7kBFtnT54Vx"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 545,
+        "height": 142
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          174.602,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.8,
+          0.8,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "NextButton",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 6
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 5
+          },
+          "_normalMaterial": {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          },
+          "_N$transition": 1,
+          "transition": 1,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 230,
+            "g": 230,
+            "b": 230
+          },
+          "_N$pressedColor": {
+            "__type__": "cc.Color",
+            "r": 65,
+            "g": 65,
+            "b": 65
+          },
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 65,
+            "g": 65,
+            "b": 65
+          },
+          "_N$hoverColor": {
+            "__type__": "cc.Color",
+            "r": 119,
+            "g": 119,
+            "b": 119
+          },
+          "hoverColor": {
+            "__type__": "cc.Color",
+            "r": 119,
+            "g": 119,
+            "b": 119
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 120,
+            "g": 120,
+            "b": 120,
+            "a": 200
+          },
+          "_N$normalSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "pressedSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "hoverSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "8eX6ioyMxBQaZN/8hBOHr0"
+          },
+          "_N$target": {
+            "__id__": 6
+          }
+        },
+        {
+          "__type__": "d29d9BD7KtFHJTgYyG2y/AK",
+          "node": {
+            "__id__": 5
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "948sewhYFB37ofKtxfnisU"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1280,
+        "height": 460.8
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -238.855,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.2,
+          0.2,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 6
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "cbLGoCuelOu76HdBz/JcbA"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 6
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_top": -104.76100000000002,
+          "_bottom": 104.76100000000005,
+          "_originalWidth": 100,
+          "_originalHeight": 40
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "2cSug52bVId5OE+LAasjY6"
+        },
+        "fileId": "16VBWIcS1Kv4nGmyVij4F4"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 230,
+        "g": 230,
+        "b": 230
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1280,
+        "height": 460.8
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          104.76100000000005,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "VictoryBoard_v2_board_p1",
+      "texture": "c4v+u44jZIjLklVb+AoDcq",
+      "rect": [
+        381,
+        149,
+        524,
+        468
+      ],
+      "offset": [
+        3,
+        -23
+      ],
+      "originalSize": [
+        1280,
+        720
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "NextLevel_btn",
+      "texture": "2dxNNWZnZDWpsjKhTFEo7Y",
+      "rect": [
+        4,
+        2,
+        508,
+        510
+      ],
+      "offset": [
+        2,
+        -1
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "SFX_EpicWin_EndGame",
+    "_native": ".mp3"
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "VictoryBoard_v2_NEXTBtn_p3",
+      "texture": "73Ew3Jp0FBIKxhJnZ7NKRc",
+      "rect": [
+        508,
+        491,
+        263,
+        88
+      ],
+      "offset": [
+        -0.5,
+        -175
+      ],
+      "originalSize": [
+        1280,
+        720
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "VictoryBoard_v2_Congratz_p4",
+      "texture": "81sQeGE9pMG6gMS6kK4d3a",
+      "rect": [
+        367,
+        79,
+        545,
+        142
+      ],
+      "offset": [
+        -0.5,
+        210
+      ],
+      "originalSize": [
+        1280,
+        720
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
