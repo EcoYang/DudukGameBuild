@@ -11279,10 +11279,10 @@
           "__id__": 224
         },
         {
-          "__id__": 226
+          "__id__": 230
         },
         {
-          "__id__": 227
+          "__id__": 226
         }
       ],
       "_components": [
@@ -11526,6 +11526,9 @@
           },
           "StartGameButton": {
             "__id__": 223
+          },
+          "LoadingScreen": {
+            "__id__": 226
           }
         }
       ],
@@ -11789,93 +11792,13 @@
     },
     {
       "__type__": "cc.Node",
-      "_name": "LevelSceneLabel",
-      "_parent": {
-        "__id__": 218
-      },
-      "_components": [
-        {
-          "__type__": "cc.Label",
-          "_name": "LevelSceneLabel<Label>",
-          "node": {
-            "__id__": 226
-          },
-          "_materials": [
-            {
-              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
-            }
-          ],
-          "_string": "Label",
-          "_N$string": "Label",
-          "_fontSize": 70,
-          "_lineHeight": 50,
-          "_N$horizontalAlign": 1,
-          "_N$verticalAlign": 1,
-          "_N$fontFamily": "Comic Sans"
-        },
-        {
-          "__type__": "2ee6fFG2O9JJ773QDvfCora",
-          "node": {
-            "__id__": 226
-          }
-        },
-        {
-          "__type__": "cc.Animation",
-          "node": {
-            "__id__": 226
-          },
-          "_defaultClip": {
-            "__uuid__": "63pbjiMlNGMZj0bUyM7AGe"
-          },
-          "_clips": [
-            {
-              "__uuid__": "63pbjiMlNGMZj0bUyM7AGe"
-            }
-          ],
-          "playOnLoad": true
-        }
-      ],
-      "_prefab": {
-        "__type__": "cc.PrefabInfo",
-        "root": {
-          "__id__": 218
-        },
-        "asset": {
-          "__uuid__": "1fzWblw4VLYZCIJNpQxYU+"
-        },
-        "fileId": "dcYWWS2gxH76KNc3mRrqb4"
-      },
-      "_contentSize": {
-        "__type__": "cc.Size",
-        "width": 159.35,
-        "height": 63
-      },
-      "_trs": {
-        "__type__": "TypedArray",
-        "ctor": "Float64Array",
-        "array": [
-          0,
-          133.863,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          1,
-          1
-        ]
-      }
-    },
-    {
-      "__type__": "cc.Node",
       "_name": "LoadingBackground",
       "_parent": {
         "__id__": 218
       },
       "_children": [
         {
-          "__id__": 228
+          "__id__": 227
         }
       ],
       "_components": [
@@ -11883,7 +11806,7 @@
           "__type__": "cc.Sprite",
           "_name": "LoadingBackground<Sprite>",
           "node": {
-            "__id__": 227
+            "__id__": 226
           },
           "_materials": [
             {
@@ -11932,18 +11855,18 @@
       "__type__": "cc.Node",
       "_name": "Root",
       "_parent": {
-        "__id__": 227
+        "__id__": 226
       },
       "_children": [
         {
-          "__id__": 229
+          "__id__": 228
         }
       ],
       "_components": [
         {
           "__type__": "96bfeJXrTVKRrr9QF9ZrvYE",
           "node": {
-            "__id__": 228
+            "__id__": 227
           }
         }
       ],
@@ -11978,18 +11901,18 @@
       "__type__": "cc.Node",
       "_name": "Anchor1",
       "_parent": {
-        "__id__": 228
+        "__id__": 227
       },
       "_children": [
         {
-          "__id__": 230
+          "__id__": 229
         }
       ],
       "_components": [
         {
           "__type__": "cc.Animation",
           "node": {
-            "__id__": 229
+            "__id__": 228
           }
         }
       ],
@@ -12024,14 +11947,14 @@
       "__type__": "cc.Node",
       "_name": "LoadingCircularBar_p1",
       "_parent": {
-        "__id__": 229
+        "__id__": 228
       },
       "_components": [
         {
           "__type__": "cc.Sprite",
           "_name": "LoadingCircularBar_p1<Sprite>",
           "node": {
-            "__id__": 230
+            "__id__": 229
           },
           "_materials": [
             {
@@ -12077,6 +12000,86 @@
       "_eulerAngles": {
         "__type__": "cc.Vec3",
         "z": 5.828
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "LevelSceneLabel",
+      "_parent": {
+        "__id__": 218
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "_name": "LevelSceneLabel<Label>",
+          "node": {
+            "__id__": 230
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "Label",
+          "_N$string": "Label",
+          "_fontSize": 70,
+          "_lineHeight": 50,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_N$fontFamily": "Comic Sans"
+        },
+        {
+          "__type__": "2ee6fFG2O9JJ773QDvfCora",
+          "node": {
+            "__id__": 230
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 230
+          },
+          "_defaultClip": {
+            "__uuid__": "63pbjiMlNGMZj0bUyM7AGe"
+          },
+          "_clips": [
+            {
+              "__uuid__": "63pbjiMlNGMZj0bUyM7AGe"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 218
+        },
+        "asset": {
+          "__uuid__": "1fzWblw4VLYZCIJNpQxYU+"
+        },
+        "fileId": "dcYWWS2gxH76KNc3mRrqb4"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 159.35,
+        "height": 63
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          133.863,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
       }
     },
     {
