@@ -1,1 +1,7 @@
-{"__type__":"cc.JsonAsset","_name":"Network","json":{"baseUrl":"http://172.17.1.54/EndlessRunnerAPI/api/"}}
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "Network",
+  "json": {
+    "baseUrl": "http://172.17.1.54/EndlessRunnerAPI/api/"
+  }
+}
